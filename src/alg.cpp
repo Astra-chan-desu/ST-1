@@ -7,7 +7,7 @@ bool checkPrime(uint64_t value) {
   if (value < 2)  {
     return false;
   }
-  if (value == 3 || value == 2) 
+  if (value == 3 || value == 2)
   return true;
   else if (value % 2 == 0)
   return false;
@@ -54,8 +54,6 @@ uint64_t sumPrime(uint64_t hbound) {
   uint64_t sum = 2;
   if (hbound < 3)
   return 2;
-  if (hbound < 5)
-  return 5;
   while (number < hbound)  {
     if (checkPrime(number))
     sum += number;
