@@ -24,6 +24,11 @@ TEST(st1_strakhov, checkPrime4) {
   bool expected = false;
   EXPECT_EQ(expected, res);
 }
+TEST(st1_strakhov, checkPrime9) {
+  bool res = checkPrime(9);
+  bool expected = false;
+  EXPECT_EQ(expected, res);
+}
 TEST(st1_strakhov, nPrime1) {
   uint64_t res = nPrime(1);
   uint64_t expected = 2;
