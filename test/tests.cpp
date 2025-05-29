@@ -86,7 +86,7 @@ TEST(st1_strakhov, sumPrime3) {
   EXPECT_EQ(expected, res);
 }
 
-TEST(st1_strakhov, sumPrime2) {
+TEST(st1_strakhov, sumPrime4) {
   uint64_t res = sumPrime(3);
   uint64_t expected = 2;
   EXPECT_EQ(expected, res);
