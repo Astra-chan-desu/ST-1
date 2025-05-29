@@ -27,10 +27,10 @@ uint64_t nPrime(uint64_t n)
 {
   uint64_t counter = 1;
   uint64_t number = 1;
-  if (n < 2)
+  if (n < 1)
     return 0;
-  if (n == 2)
-    return 1;
+  if (n == 1)
+    return 2;
   while (counter < n)
   {
     number += 2;

@@ -93,3 +93,17 @@ TEST(st1, sumPrime2)
   uint64_t expected = 17;
   EXPECT_EQ(expected, res);
 }
+
+TEST(st1, sumPrime3)
+{
+  uint64_t res = sumPrime(4);
+  uint64_t expected = 5;
+  EXPECT_EQ(expected, res);
+}
+
+TEST(st1, sumPrime2)
+{
+  uint64_t res = sumPrime(3);
+  uint64_t expected = 2;
+  EXPECT_EQ(expected, res);
+}
